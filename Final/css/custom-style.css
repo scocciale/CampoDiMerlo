@@ -31,3 +31,32 @@ html {
 .white-circle{
 	border: 2px solid #fff;
 }
+
+.logo img {
+  margin: 0;
+  max-width: 170px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.logo-dark {
+  display:none;
+  width: 100px;
+}
+
+nav.navbar-scrolled .logo-white, .navbar-scrolled nav .logo-white {
+	display:none;
+}
+
+nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
+  display:block;
+  width: 100px;
+}
+
+.navbar-scrolled{
+	padding-left: 2em !important;
+	padding-top: 0 !important;
+	padding-right: 2em !important;
+	padding-bottom: 0.5em !important;
+}
