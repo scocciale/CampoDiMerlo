@@ -60,3 +60,18 @@ nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
 	padding-right: 2em !important;
 	padding-bottom: 0.5em !important;
 }
+
+.fs-13{
+	font-size: 1.3em !important;
+}
+
+.family-photo{
+	height: 85vh !important;
+	background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/family_portrait.jpg") !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.ta-l{
+	text-align: left;
+}
