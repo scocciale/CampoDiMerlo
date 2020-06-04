@@ -1,6 +1,6 @@
 var a = 0;
 $(window).scroll(function () {
-	var oTop = $('#counter-div').offset().top - window.innerHeight;
+	var oTop = $('#counter-div').offset().top() - window.innerHeight;
 	if (a == 0 && $(window).scrollTop() > oTop) {
 		$('.count').each(function () {
 			var $this = $(this),

@@ -75,3 +75,13 @@ nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
 .ta-l{
 	text-align: left;
 }
+
+.icon{
+	width: 100px;
+	height: 100px;
+}
+
+#map {
+    height: 100%;  /* The height is 400 pixels */
+	width: 100%;  /* The width is the width of the web page */
+}
