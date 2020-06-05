@@ -25,3 +25,16 @@ $(window).scroll(function () {
 		a = 1;
 	}
 });
+
+var map = new ol.Map({
+	target: 'map',
+	layers: [
+		new ol.layer.Tile({
+			source: new ol.source.OSM()
+		})
+	],
+	view: new ol.View({
+		center: ol.proj.fromLonLat([12.380859,41.822713]),//Via della Magliana, 1081, 00148 Roma RM
+		zoom: 18
+	})
+});
