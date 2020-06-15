@@ -131,3 +131,8 @@ nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
     text-align: center;
 	text-transform: none !important;
 }
+
+.width-150{
+	width: 150px;
+    margin-top: 1.5rem;
+}
