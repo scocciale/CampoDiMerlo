@@ -136,3 +136,15 @@ nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
 	width: 150px;
     margin-top: 1.5rem;
 }
+
+.secondary-landing{
+	height: 90% !important;
+}
+
+.less-pt{
+	padding-top: 1rem !important;
+}
+
+.less-pb{
+	padding-bottom: 1rem !important;
+}
