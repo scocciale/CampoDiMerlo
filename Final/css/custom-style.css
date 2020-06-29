@@ -65,6 +65,10 @@ nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
   font-size: 1.3em !important;
 }
 
+.fs-1 {
+  font-size: 1em !important;
+}
+
 .family-photo {
   height: 85vh !important;
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/family_portrait.jpg") !important;
@@ -148,3 +152,24 @@ nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
 .less-pb{
 	padding-bottom: 1rem !important;
 }
+
+.center-text-ver{
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.color-description{
+  color: white;
+}
+
+hr.divider-100 {
+  max-width: 100%;
+  border-width: 0.2rem;
+  border-color: #f4623a;
+}
+
+
+/* Gallery */
