@@ -71,7 +71,8 @@ nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
 
 .family-photo {
   height: 85vh !important;
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/distesa_grano_full.jpg") !important;
+  /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/distesa_grano_full.jpg") !important;*/
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/campo_di_merlo/viale.jpg") !important;
   background-position: center !important;
   background-size: cover !important;
 }
@@ -79,8 +80,8 @@ nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
 .vegetable-photo{
 	height: 85vh !important;
 	background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/vegetables.jpg") !important;
-    background-position: center !important;
-    background-size: cover !important;
+  background-position: center !important;
+  background-size: cover !important;
 }
 
 .wheat-photo {
@@ -132,7 +133,7 @@ nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
 .text-prop-portfolio{
 	width: 50%;
 	font-size: 1rem !important;
-    text-align: center;
+  text-align: center;
 	text-transform: none !important;
 }
 
