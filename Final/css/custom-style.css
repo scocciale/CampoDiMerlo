@@ -37,7 +37,7 @@ html {
   max-width: 170px;
   position: relative;
   top: 0px;
-  width: 100%;
+  width: 85%;
 }
 
 .logo-dark {
@@ -58,7 +58,7 @@ nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
   padding-left: 2em !important;
   padding-top: 0 !important;
   padding-right: 2em !important;
-  padding-bottom: 0.5em !important;
+  padding-bottom: 0.0em !important;
 }
 
 .fs-13 {
@@ -171,5 +171,7 @@ hr.divider-100 {
   border-color: #f4623a;
 }
 
-
+.black-text {
+  color: black;
+}
 /* Gallery */
