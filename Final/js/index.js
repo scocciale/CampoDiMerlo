@@ -26,6 +26,14 @@
 // 	}
 // });
 
+$("#indexCreme").click(function() {
+	window.location.replace("./pages/creme.html");
+});
+
+$("#indexPasta").click(function() {
+	window.location.replace("./pages/pasta.html");
+});
+
 var map = new ol.Map({
 	target: 'map',
 	layers: [

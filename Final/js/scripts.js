@@ -1,9 +1,4 @@
-/*!
-    * Start Bootstrap - Creative v6.0.2 (https://startbootstrap.com/themes/creative)
-    * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
-    */
-    (function($) {
+(function($) {
   "use strict"; // Start of use strict
 
   // Smooth scrolling using jQuery easing
@@ -45,10 +40,10 @@
   $(window).scroll(navbarCollapse);
 
   // Magnific popup calls
-  $('#portfolio').magnificPopup({
+  $('.portfolioClass').magnificPopup({
     delegate: 'a',
     type: 'image',
-    tLoading: 'Loading image #%curr%...',
+    tLoading: 'Carico l\'immagine #%curr%...',
     mainClass: 'mfp-img-mobile',
     gallery: {
       enabled: true,
@@ -56,7 +51,7 @@
       preload: [0, 1]
     },
     image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+      tError: '<a href="%url%">L\'immagine #%curr%</a> non può essere caricata.'
     }
   });
 
