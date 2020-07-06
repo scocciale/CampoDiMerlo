@@ -51,6 +51,17 @@
       preload: [0, 1]
     },
     image: {
+      titleSrc: function(item) {
+        var markup = '';
+        if (item.el[0].hasAttribute("data-title")) {
+          markup += '<h3>' + item.el.attr('data-title') + '</h3>';
+        }
+
+        if (item.el[0].hasAttribute("data-caption")) {
+          markup += '<h5>' + item.el.attr('data-caption') + '</5>';
+        }
+        return markup
+      },
       tError: '<a href="%url%">L\'immagine #%curr%</a> non può essere caricata.'
     }
   });
