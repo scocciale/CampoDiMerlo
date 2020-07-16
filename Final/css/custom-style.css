@@ -91,6 +91,13 @@ nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
   background-size: cover !important;
 }
 
+.carciofo-photo{
+  height: 85vh !important;
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/carciofo_landing.jpg") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
 .ta-l {
   text-align: left;
 }
@@ -138,7 +145,7 @@ nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
 }
 
 .width-150{
-	width: 150px;
+	width: 155px;
   margin-top: 1.5rem;
 }
 
@@ -178,4 +185,12 @@ hr.divider-100 {
 
 .line-h {
   line-height: 1cm;
+}
+
+.text-black-custom{
+  color: rgba(33, 37, 41, 0.8) !important;
+}
+
+.bl-white{
+  border-left: solid 1px white;
 }
