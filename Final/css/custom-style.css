@@ -139,7 +139,7 @@ nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
 
 .width-150{
 	width: 150px;
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .secondary-landing{
@@ -175,4 +175,7 @@ hr.divider-100 {
 .black-text {
   color: black;
 }
-/* Gallery */
+
+.line-h {
+  line-height: 1cm;
+}
