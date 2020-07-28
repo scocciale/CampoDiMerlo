@@ -98,6 +98,13 @@ nav.navbar-scrolled .logo-dark, .navbar-scrolled nav .logo-dark {
   background-size: cover !important;
 }
 
+.sauce-photo{
+  height: 85vh !important;
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/sugo-landing.jpg") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
 .ta-l {
   text-align: left;
 }
